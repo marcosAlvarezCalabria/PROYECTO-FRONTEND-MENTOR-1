@@ -1,0 +1,145 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+}
+body{
+    display: flex;
+    background-color: hsl(235, 18%, 26%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+     font-size: 15px;
+    font-weight: 500;
+    line: height 18px;
+}
+
+.container{
+
+
+    margin: 80px;
+    border-radius: 30px;
+    width: 900px;
+    height: 570px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content:space-evenly;
+    font-size: 15px;
+    align-items: center;
+    
+
+}
+.container h1 {
+    font-size: 60px;
+    color:hsl(235, 18%, 26%);
+}
+.container ul{
+    
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(155, 165, 162);
+    
+    line-height:40px ;
+    list-style: none;
+
+   
+    
+    
+}
+.check{
+   
+    position: relative;
+    top: 3px;
+
+
+    
+    
+
+    
+    
+}
+.izquierda{
+    height: 500px;
+    width: 450px;
+    
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 70px;
+
+
+
+}
+
+.imagennaranja{
+   
+    
+    display: flex;
+    height: 500px;
+    width: 400px;
+    align-items: center;
+    position: relative;
+}
+.formulario{
+    
+    height: 200px;
+    display: flex;
+    justify-content:flex-start;
+    align-content: space-between;
+
+
+
+}
+.formulario p{
+    font-size: 13px;
+
+}
+.inputemail{
+    width: 360px;
+    height: 35px;
+    background-color: hsl(0, 0%, 100%) ;
+    border-radius: 5px;
+    border: solid   rgb(205, 213, 218);
+    border-width: thin;
+    padding-left: 20px;
+
+   
+}
+.inputbutton{
+    width: 367px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px;
+    background-color: hsl(234, 29%, 20%);
+    color: hsl(0, 0%, 100%) ;
+    
+   
+
+}
+
+
+.inputbutton:hover{
+    background-color:  hsl(4, 100%, 67%);
+    filter:
+    drop-shadow(5px 5px 5px hsl(4, 100%, 67%)) invert(1%);
+    cursor: pointer;
+    
+}
+.inputemail:hover{
+    cursor: pointer;
+}
+
+
+/* Estilo del placeholder cuando el ratón está sobre el campo de entrada */
+input:hover::placeholder {
+    color: rgb(10, 10, 10); /* Color de texto al pasar el ratón */
+    cursor:pointer ;
+}
+
+
